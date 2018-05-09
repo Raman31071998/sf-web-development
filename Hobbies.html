@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+    border: 4px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center; color: #C4ECEE
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+#close{
+    float:right;
+    display:block;
+    margin-right:0px;
+    clear:left;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: right-alligned;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    cursor: pointer;
+}
+
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
+
+
+    body {
+      background: url("images/de.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+
+           }
+
+
+
+     .clr{
+                  color: #C4ECEE ;
+         }
+
+
+
+         h1 {
+    color: #C4ECEE;
+}
+
+
+</style>
+</head>
+<body>
+
+  <div id = "close" >
+
+
+
+     <a href ="Academics.html"><button class="button button1"> Academics </button></a>
+
+    <a href ="Achievements.html"> <button class="button button3"> Achievements </button> </a>
+    <a href ="front page.html"> <button class="button button2"> Front Page </button></a>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1> <marquee behavior="alternate" direction="up" width="80%">
+	   <marquee direction="right" behavior="alternate">
+
+ My hobbies are....    </marquee>
+</marquee></h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a  href="./images/song listening.jpg">
+      <img src="./images/song listening.jpg" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    <div class="desc"> <strong>I Love listening songs a lot. </strong></div>
+  </div>
+   </div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a  href="./images/cricket.jpg">
+      <img src="./images/cricket.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><strong>Cricket is that passion which beats my heart. </strong></div>
+  </div>
+   </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a  href="./images/reading novels.jpg">
+      <img src="./images/reading novels.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">  <strong>I love reading a lot. </strong></div>
+  </div>
+   </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/travelling.png">
+      <img src="./images/travelling.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"> <strong>I love travelling a lot. </strong></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
